@@ -23,7 +23,7 @@ $string = string_limit('a brown dog jumped over a lazy fox', 10, '...more');
 
 ```php
 $string = string_plural('user', 1);
-//return 'users'.
+//return 'user'.
 $string = string_plural('user', 10);
 //return 'users'.
 $string = string_plural('query', 2);
@@ -39,7 +39,8 @@ $string = string_format('query in a box', '-')
 //return 'query-in-a-box'.
 ```
 
-## reverse_date - Reformat MySQL datetime YYYY-MM-DD into DD-MM-YYYY. 
+## reverse_date 
+- Reformat MySQL datetime YYYY-MM-DD into DD-MM-YYYY. 
 
 ```php
 $string = reverse_date('2010-10-12 11:12:19');
