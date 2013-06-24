@@ -7,7 +7,7 @@ String Helper for CodeIgniter that allow you to quickly format your string.
 
 ```php
 $string = string_upper('string');
-// return 'string'.
+// return 'STRING'.
 ```
 
 ## string_limit
